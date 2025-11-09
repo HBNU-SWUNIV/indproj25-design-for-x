@@ -32,7 +32,7 @@
 
     3. 현장 적응형·교체형 구조
        : 실제 돈사에서는 여러 제조사의 CCTV/AI 카메라를 섞어서 쓰는 경우가 많다. 따라서 앞단 어댑터만 바꿔서 동일 하우징을 여러 기종에 쓸 수 있도록 해야 한다. 이 부분은 3D 프린터나 간단한 가공으로 크기를 조정해 재출력할 수 있도록 설계하는 게 현실적이다. 이렇게 해 두면 농가별로 촬영 각도, 설치 위치, 벽면 간섭이 달라도 하우징만 현장에서 맞춰 끼울 수 있어 보급성이 올라간다.
-![하우징 앞단 분리1](https://github.com/DxxHo/pre-dxx/blob/main/4.%EB%8F%99%EC%9E%91%EA%B5%AC%EC%A1%B0%20%EA%B7%B8%EB%A6%BC_1.png)![하우징 앞단 분리2](https://github.com/DxxHo/pre-dxx/blob/main/4.%EB%AA%A8%EB%8D%B8%EB%A7%81%20%EB%A0%8C%EC%A6%88%ED%99%95%EB%8C%80%EB%B7%B0_1.png)
+![하우징 앞단 분리1](https://github.com/DxxHo/pre-dxx/blob/main/4.%EB%8F%99%EC%9E%91%EA%B5%AC%EC%A1%B0%20%EA%B7%B8%EB%A6%BC_1.png)   ![하우징 앞단 분리2](https://github.com/DxxHo/pre-dxx/blob/main/4.%EB%AA%A8%EB%8D%B8%EB%A7%81%20%EB%A0%8C%EC%A6%88%ED%99%95%EB%8C%80%EB%B7%B0_1.png)
 
     4. 밀폐성·내구성 확보
        : 하우징은 습기·분뇨·가스에 오래 노출된다. 따라서 결합부의 패킹 처리, 팬 고정 방식, 전선 인입부의 방수 처리 같은 것들이 사전 검토돼야 한다. 또한 장기 운용 시 팬이 분진을 흡입해서 성능이 떨어지지 않는지, 공기 흐름이 특정 방향으로만 쏠리지 않는지에 대한 실측이 필요하다.
@@ -44,8 +44,8 @@
   - ### Description
   1- 오염 실험
     : 기존 설치 카메라 앞에 개발한 분진 방지 하우징을 장착한 뒤 일정 기간 영상 품질 변화를 비교했다. 이때 기준 영상은 (A)오염도 정상, (B)약한 오염도, (C)심각한 오염도 단계로 나누어 기록했다. 하우징 적용군에서는 (B)→(C)로 넘어가는 시간이 지연되었고, 관리자가 닦는 주기도 뒤로 밀렸다.
-![분진방지 팬 적용 전](https://github.com/DxxHo/pre-dxx/blob/main/5.%EA%B2%BD%ED%86%B5%EB%B6%80%20%ED%8C%AC%EC%97%86%EC%9D%8C_1.png)
-![분진방지 팬 적용 전](https://github.com/DxxHo/pre-dxx/blob/main/5.%EA%B2%BD%ED%86%B5%EB%B6%80%20%ED%8C%AC%EC%9E%A5%EC%B0%A9_1.png)
+![분진방지 팬 적용 전](https://github.com/DxxHo/pre-dxx/blob/main/5.%EA%B2%BD%ED%86%B5%EB%B6%80%20%ED%8C%AC%EC%97%86%EC%9D%8C_1_2.jpg)
+![분진방지 팬 적용 전](https://github.com/DxxHo/pre-dxx/blob/main/5.%EA%B2%BD%ED%86%B5%EB%B6%80%20%ED%8C%AC%EC%9E%A5%EC%B0%A9_2.jpg)
 
   2- 구조 실험
     : 3D 모델링으로 팬이 렌즈 정면으로 바람을 보내는 선풍기 방식과, 공기를 순환시켜 전면부에 난류를 만들어주는 서큘레이터 방식을 모두 설계해 풍량을 비교했고, 축사처럼 먼지가 위·옆에서 떨어지는 환경에서는 전면 유속이 확보되는 구조가 더 유리하다는 것을 확인했다. 이 결과는 이후 설계 개선 항목에 반영되었다.
@@ -54,7 +54,7 @@
 
   3- 모듈·교체성 검증
     : 결과 보고서에서는 앞단 결합부를 교체형으로 만들어, 렌즈 높이나 본체 너비가 다른 카메라에도 동일 하우징을 쓸 수 있다는 점을 명시했다. 이 결과는 제안 단계에서 설정했던 ‘대학–기업 간 역할 구분’이 실제 수행 과정에서도 자연스럽게 작동했음을 보여준다.
-![부품 분리 사진](https://github.com/DxxHo/pre-dxx/blob/main/7.%20%EC%A0%84%EC%B2%B4%EC%83%B7.png)
+![부품 분리 사진](https://github.com/DxxHo/pre-dxx/blob/main/7.%20%EC%A0%84%EC%B2%B4%EC%83%B7_2.jpg)
 
 ## Conclusion
   - ### 분진 환경에서도 “사용 가능한 영상”을 확보하는 하드웨어 전처리 장치의 필요성을 검증
